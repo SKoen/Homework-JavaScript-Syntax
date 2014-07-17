@@ -3,8 +3,7 @@
     for (i = 0; i < num; i++) {
         if (num % i == 0) count++;
     }
-    if (count > 2) return false;
-    else return true;
+    return(count<2?true:false);
 }
 
 console.log(IsPrime(7));

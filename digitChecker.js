@@ -1,9 +1,6 @@
 ﻿function checkDigit(num) {
     var word = num.toString();
-    if (word[word.length - 3] == "3") {
-        return true;
-    }
-    else return false;
+    return (word[word.length - 3] == "3" ? true : false);
 }
 console.log(checkDigit(1235));
 console.log(checkDigit(25368));
